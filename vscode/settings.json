@@ -1,0 +1,42 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "doxdocgen.file.copyrightTag": [
+        "@copyright Copyright (c) {year} Jason Conway. All rights reserved."
+    ],
+    "doxdocgen.generic.authorName": "Jason Conway",
+    "doxdocgen.generic.authorEmail": "jpc@jasonconway.dev",
+    "doxdocgen.generic.commandSuggestionAddPrefix": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.largeFileOptimizations": false,
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.intelliSenseMode": "macos-clang-arm64",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "git.autofetch": true,
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.loggingLevel": "Debug",
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+    "C_Cpp.vcFormat.indent.withinParentheses": "alignToParenthesis",
+    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "C_Cpp.vcFormat.space.pointerReferenceAlignment": "right",
+    "C_Cpp.vcFormat.space.betweenEmptyBraces": true,
+    "C_Cpp.vcFormat.space.preserveInInitializerList": false,
+    
+    "C_Cpp.autocompleteAddParentheses": true,
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "editor.renderWhitespace": "all",
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "workbench.colorTheme": "United Ubuntu",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": false,
+    "mesonbuild.configureOnOpen": false
+}
