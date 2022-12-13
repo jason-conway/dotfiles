@@ -7,10 +7,20 @@
 	name = Jason Conway
 [core]
 	excludesFile = ~/.gitignore
+	editor = nano
 [init]
 	defaultBranch = main
+[push]
+	followTags = true
+[merge]
+	conflictstyle = diff3
 [color]
 	branch = auto
 	diff = auto
 	interactive = auto
 	status = auto
+[rerere]
+	enabled = true
+[status]
+	showUntrackedFiles = all
+	
