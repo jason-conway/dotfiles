@@ -5,6 +5,7 @@
 	required = true
 [user]
 	name = Jason Conway
+	email = jpc@jasonconway.dev
 [core]
 	excludesFile = ~/.gitignore
 	editor = nano
