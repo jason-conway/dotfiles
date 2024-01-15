@@ -1,22 +1,10 @@
 {
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "vscode-icons",
-    "doxdocgen.file.copyrightTag": [
-        "@copyright Copyright (c) {year} Jason Conway. All rights reserved."
-    ],
-    "doxdocgen.generic.authorName": "Jason Conway",
-    "doxdocgen.generic.authorEmail": "jpc@jasonconway.dev",
-    "doxdocgen.generic.commandSuggestionAddPrefix": true,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.largeFileOptimizations": false,
-    "C_Cpp.default.cStandard": "c11",
-    "C_Cpp.default.intelliSenseMode": "macos-clang-arm64",
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
-    "git.autofetch": true,
+    
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.intelliSenseMode": "macos-clang-arm64",
     "C_Cpp.formatting": "vcFormat",
     "C_Cpp.loggingLevel": "Debug",
     "C_Cpp.vcFormat.indent.accessSpecifiers": true,
@@ -27,16 +15,47 @@
     "C_Cpp.vcFormat.space.pointerReferenceAlignment": "right",
     "C_Cpp.vcFormat.space.betweenEmptyBraces": true,
     "C_Cpp.vcFormat.space.preserveInInitializerList": false,
-    
     "C_Cpp.autocompleteAddParentheses": true,
+    
+    "doxdocgen.file.copyrightTag": [
+        "@copyright Copyright (c) {year} Jason Conway. All rights reserved."
+    ],
+    "doxdocgen.generic.authorName": "Jason Conway",
+    "doxdocgen.generic.authorEmail": "jpc@jasonconway.dev",
+    "doxdocgen.generic.commandSuggestionAddPrefix": true,
+
+    "editor.largeFileOptimizations": false,
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": false,
+    "editor.foldingMaximumRegions": 65000,
+    "editor.minimap.renderCharacters": false,
+    
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "never",
+    
     "hexeditor.columnWidth": 16,
     "hexeditor.showDecodedText": true,
-    "editor.renderWhitespace": "all",
     "hexeditor.defaultEndianness": "little",
     "hexeditor.inspectorType": "aside",
+
+    "security.workspace.trust.untrustedFiles": "open",
+    
+    "telemetry.telemetryLevel": "off",
+    
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.scrollback": 50000,
+    
+    "workbench.startupEditor": "none",
     "workbench.colorTheme": "United Ubuntu",
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 13,
-    "editor.fontLigatures": false,
-    "mesonbuild.configureOnOpen": false
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.list.horizontalScrolling": true,
+    
 }
