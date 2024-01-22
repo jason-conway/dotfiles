@@ -22,10 +22,8 @@ fi
 
 if type micro >/dev/null 2>&1; then
 	alias nano='micro'
-	export EDITOR=micro
-else
-	export EDITOR=nano
 fi
+export EDITOR=nano
 
 if type batcat >/dev/null 2>&1; then
 	alias bat='batcat'
