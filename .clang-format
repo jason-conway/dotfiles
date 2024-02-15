@@ -1,0 +1,29 @@
+---
+Language: Cpp
+AlignAfterOpenBracket: Align
+AlignConsecutiveMacros: 'true'
+AlignEscapedNewlines: DontAlign
+AllowAllArgumentsOnNextLine: 'false'
+AllowAllParametersOfDeclarationOnNextLine: 'false'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortCaseLabelsOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: 'true'
+AlwaysBreakAfterDefinitionReturnType: None
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Stroustrup
+BreakBeforeTernaryOperators: 'false'
+ColumnLimit: '180'
+IndentCaseLabels: 'true'
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: 'true'
+PointerAlignment: Right
+SpaceAfterCStyleCast: 'false'
+SpaceAfterLogicalNot: 'false'
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeCpp11BracedList: 'true'
+SpaceInEmptyParentheses: 'false'
+UseTab: Never
+InsertBraces: 'true'
+...
