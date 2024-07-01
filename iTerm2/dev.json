@@ -33,6 +33,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.89802169799804688
   },
+  "Show Mark Indicators" : false,
   "Mouse Reporting" : true,
   "Ansi 4 Color" : {
     "Red Component" : 0.070588238537311554,
