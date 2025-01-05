@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+resolution="$(xdpyinfo | awk '/dimensions:/ {printf $2}')"
+
+if [[ $resolution == "2560x1440" || $resolution == "4000x2560" ]]; then
+	ARGS=
+    # echo "external monitor"
+else
+	ARGS="--disable-features=WaylandFractionalScaleV1 --ozone-platform=wayland"
+fi
+
+/usr/share/code/code $ARGS $@
