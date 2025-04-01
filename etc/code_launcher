@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
+command -v xdpyinfo >/dev/null 2>&1 || { echo >&2 "[error] need xdpyinfo"; exit 1; }
+command -v code >/dev/null 2>&1 || { echo >&2 "[error] launching code requires that code be installed..."; exit 1; }
+
 resolution="$(xdpyinfo | awk '/dimensions:/ {printf $2}')"
 
 if [[ $resolution == "2560x1440" || $resolution == "4000x2560" ]]; then
 	ARGS=
-    # echo "external monitor"
 else
 	ARGS="--disable-features=WaylandFractionalScaleV1 --ozone-platform=wayland"
 fi
