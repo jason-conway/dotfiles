@@ -1,50 +1,71 @@
 ---
 AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Right
 AlignConsecutiveMacros: 'true'
 AlignEscapedNewlines: DontAlign
 AlignOperands: Align
 AllowAllArgumentsOnNextLine: 'false'
 AllowAllParametersOfDeclarationOnNextLine: 'false'
 AllowShortBlocksOnASingleLine: 'false'
+AllowShortCaseExpressionOnASingleLine: 'false'
 AllowShortCaseLabelsOnASingleLine: 'false'
-AllowShortEnumsOnASingleLine: 'false'
+AllowShortEnumsOnASingleLine: 'true'
 AllowShortFunctionsOnASingleLine: None
 AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: 'true'
 AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakBeforeMultilineStrings: 'false'
 BitFieldColonSpacing: Both
 BracedInitializerIndentWidth: 4
 BreakAdjacentStringLiterals: 'true'
+BreakAfterAttributes: Never
 BreakBeforeBinaryOperators: None
 BreakBeforeBraces: Stroustrup
 BreakBeforeInlineASMColon: OnlyMultiline
 BreakBeforeTernaryOperators: 'false'
+BreakBinaryOperations: RespectPrecedence
+BreakFunctionDefinitionParameters: 'false'
 ColumnLimit: '0'
 Cpp11BracedListStyle: 'false'
 IndentAccessModifiers: 'false'
 IndentCaseBlocks: 'false'
 IndentCaseLabels: 'true'
+IndentExternBlock: Indent
 IndentGotoLabels: 'false'
 IndentPPDirectives: BeforeHash
 IndentWidth: 4
 InsertBraces: 'true'
 InsertNewlineAtEOF: 'true'
-KeepEmptyLinesAtTheStartOfBlocks: 'true'
+IntegerLiteralSeparator:
+    Binary: 4
+    BinaryMinDigits: 8
+    Decimal: 0
+    Hex: 0
+KeepEmptyLines:
+    AtEndOfFile: false
+    AtStartOfBlock: true
+    AtStartOfFile: false
 MaxEmptyLinesToKeep: 2
 PackConstructorInitializers: Never
 PointerAlignment: Right
 QualifierAlignment: Custom
 QualifierOrder: ['static', 'inline', 'const', 'type', 'restrict', 'volatile']
 ReferenceAlignment: Pointer
-ReflowComments: 'true'
-RemoveParentheses: ReturnStatement
+ReflowComments: Always
+RemoveParentheses: MultipleParentheses
+RemoveSemicolon: 'true'
 SpaceAfterCStyleCast: 'false'
 SpaceAfterLogicalNot: 'false'
+SpaceAroundPointerQualifiers: After
 SpaceBeforeAssignmentOperators: 'true'
 SpaceBeforeCaseColon: 'false'
 SpaceBeforeCpp11BracedList: 'true'
+SpaceBeforeSquareBrackets: 'false'
 SpaceInEmptyBlock: 'true'
-SpaceInEmptyParentheses: 'false'
+SpacesInLineCommentPrefix:
+    Minimum: 1
+    Maximum: -1
+SpacesInParens: Never
 UseTab: Never
 ...
