@@ -36,3 +36,7 @@ fi
 
 alias code='open -a Visual\ Studio\ Code'
 alias build-ghidra='./${HOME}/Developer/etc/scripts/ghidra-build.sh'
+
+if [[ -f /usr/share/applications/code.desktop && -f /mnt/hgfs/vm-tunnel/dotfiles/etc/code_launcher ]]; then
+	alias patch-code-launcher="sudo sed -i 's|Exec=/usr/share/code/code|Exec=/mnt/hgfs/vm-tunnel/dotfiles/etc/code_launcher|' /usr/share/applications/code.desktop"
+fi
