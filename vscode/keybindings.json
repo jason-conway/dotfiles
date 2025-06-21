@@ -61,5 +61,14 @@
     {
         "key": "cmd+k cmd+u",
         "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
     }
 ]
