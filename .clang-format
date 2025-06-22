@@ -1,4 +1,3 @@
----
 AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignArrayOfStructures: Right
@@ -68,4 +67,3 @@ SpacesInLineCommentPrefix:
     Maximum: -1
 SpacesInParens: Never
 UseTab: Never
-...
