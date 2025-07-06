@@ -45,7 +45,7 @@ fi
 
 if [[ `uname` == "Darwin" ]]; then
 	alias code='open -a Visual\ Studio\ Code'
-	alias build-ghidra='./${HOME}/Developer/dotfiles/ghidra/ghidra-build.sh'
+	alias build-ghidra='${HOME}/Developer/dotfiles/ghidra/build-ghidra.sh'
 fi
 
 if [[ `uname` == "Linux" && -f /usr/share/applications/code.desktop && -f /mnt/hgfs/vm-tunnel/dotfiles/vscode/code_launcher ]]; then
