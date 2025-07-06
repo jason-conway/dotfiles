@@ -70,5 +70,40 @@
         "key": "ctrl+q",
         "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
         "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "-editor.debug.action.showDebugHover",
+        "when": "editorTextFocus && inDebugMode"
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "-editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "-workbench.action.terminal.focusHover",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalIsOpen || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalIsOpen && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "-list.showHover",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "-workbench.action.showHover",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "editor.action.codeAction",
+        "when": "editorTextFocus && editorLangId =~ /^(c|(cuda-)?cpp)$/ && !(config.C_Cpp.intelliSenseEngine =~ /^[dD]isabled$/)"
+    },
+    {
+        "key": "ctrl+shift+r ctrl+i",
+        "command": "-editor.action.codeAction",
+        "when": "editorTextFocus && editorLangId =~ /^(c|(cuda-)?cpp)$/ && !(config.C_Cpp.intelliSenseEngine =~ /^[dD]isabled$/)"
     }
 ]
