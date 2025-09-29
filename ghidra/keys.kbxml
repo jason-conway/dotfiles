@@ -129,7 +129,7 @@
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Edit Comments (CommentsPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed SEMICOLON" />
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed SLASH" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Define string (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -153,7 +153,7 @@
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Next Matching Byte Values (NextPrevCodeUnitPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="meta alt pressed V" />
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed N" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Choose Data Type (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -170,6 +170,10 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Add Label (LabelMgrPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed L" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Quick Edit Field (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift meta pressed E" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Rename Equate (EquatePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -190,10 +194,6 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Edit Data Type (DataTypeManagerPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="shift meta pressed D" />
-        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION NAME="Rename Data Field (DataPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Interrupt Interpreter (JythonPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -265,7 +265,7 @@
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Edit Variable Comment (FunctionPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed SEMICOLON" />
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed SLASH" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Show All History (LabelMgrPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -274,6 +274,10 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Disassemble XGate (DisassemblerPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F11" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Edit Field (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift meta pressed E" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Repeat Memory Search Backwards (MemorySearchPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -290,6 +294,10 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Set Operand Label (LabelMgrPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="meta alt pressed L" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Find (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed F" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Jump to Next Dockable Provider (Tool)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -314,6 +322,10 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Zoom Out (FunctionGraphPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed MINUS" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Edit (DataTypeManagerPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed E" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Next Instruction (NextPrevCodeUnitPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -428,6 +440,10 @@
         <STATE NAME="KeyStroke" TYPE="string" VALUE="meta alt pressed T" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Rename Symbol (SymbolTreePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Set Default Stack Reference (ReferencesPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed M" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
@@ -456,6 +472,10 @@
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed M" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Rename (DataTypeManagerPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Zoom In (FunctionGraphPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed EQUALS" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
@@ -464,16 +484,16 @@
         <STATE NAME="KeyStroke" TYPE="string" VALUE="shift alt pressed RIGHT" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Clear With Options (ClearPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed C" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Show Action Chooser Dialog (Tool)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed 3" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Set Equate (EquatePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed E" />
-        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION NAME="Find (DecompilePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed F" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Delete Components (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -520,6 +540,10 @@
         <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed F6" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Define double (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed D" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Edit External Location (LabelMgrPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed L" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
@@ -562,6 +586,10 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Show Focus Info (DockingWindows)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="shift meta alt pressed F2" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Edit Function Signature (DecompilePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed L" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Forward Refs (SelectRefsPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -612,12 +640,12 @@
         <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed L" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION NAME="Tree Collapse Node (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed UP" />
-        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
-    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Data Settings (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed T" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Tree Collapse Node (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed UP" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Set View (ProgramTreePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -733,7 +761,7 @@
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Search Text (SearchTextPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift meta pressed E" />
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="meta pressed F" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Bookmarks (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
