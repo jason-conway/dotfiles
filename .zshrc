@@ -12,6 +12,12 @@ if [[ `uname` == "Darwin" ]]; then
 	export PATH=/opt/homebrew/opt/llvm/bin:$PATH
 fi
 
+if [[ `uname` == "Linux" ]]; then
+	export PATH=$HOME/.docker/bin:$PATH
+	export PATH=$HOME/.local/bin:$PATH
+	export PATH=/opt/ghidra/:$PATH
+fi
+
 ZSH_THEME="robbyrussell"
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' frequency 14
@@ -40,13 +46,19 @@ if type fdfind >/dev/null 2>&1; then
 fi
 
 if type fzf >/dev/null 2>&1; then
-	source <(fzf --zsh)
+	if [[ `uname` == "Darwin" ]]; then
+		source <(fzf --zsh)
+	fi
 fi
 
 if [[ `uname` == "Darwin" ]]; then
 	alias code='open -a Visual\ Studio\ Code'
-	alias build-ghidra='${HOME}/Developer/dotfiles/ghidra/build-ghidra.sh'
+	if [[ `hostname` != "jpc.dev" ]]; then
+		alias spell="osascript ${HOME}/Developer/etc/scripts/spell.applescript"
+	fi
 fi
+
+alias build-ghidra='${HOME}/Developer/dotfiles/ghidra/build-ghidra.sh'
 
 if [[ `uname` == "Linux" && -f /usr/share/applications/code.desktop && -f /mnt/hgfs/vm-tunnel/dotfiles/vscode/code_launcher ]]; then
 	alias patch-code-launcher="sudo sed -i 's|Exec=/usr/share/code/code|Exec=/mnt/hgfs/vm-tunnel/dotfiles/vscode/code_launcher|' /usr/share/applications/code.desktop"
