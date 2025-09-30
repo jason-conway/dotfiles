@@ -60,6 +60,10 @@ fi
 
 alias build-ghidra='${HOME}/Developer/dotfiles/ghidra/build-ghidra.sh'
 
-if [[ `uname` == "Linux" && -f /usr/share/applications/code.desktop && -f /mnt/hgfs/vm-tunnel/dotfiles/vscode/code_launcher ]]; then
-	alias patch-code-launcher="sudo sed -i 's|Exec=/usr/share/code/code|Exec=/mnt/hgfs/vm-tunnel/dotfiles/vscode/code_launcher|' /usr/share/applications/code.desktop"
+LNK=/usr/share/applications/code.desktop
+if [[ `uname` == "Linux" && -f $LNK ]]; then
+	if [[ -f "${HOME}/Developer/dotfiles/vscode/code_launcher" ]]; then
+		LAUNCHER="${HOME}/Developer/dotfiles/vscode/code_launcher"
+		alias patch-launcher="sudo sed -i 's|Exec=/usr/share/code/code|Exec=${LAUNCHER}|' $LNK"
+	fi
 fi
