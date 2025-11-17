@@ -58,6 +58,10 @@ if [[ `uname` == "Darwin" ]]; then
 	fi
 fi
 
+if [[ `hostname` != "jpc.dev" ]]; then
+	source ${HOME}/env-private.sh
+fi
+
 alias build-ghidra='${HOME}/Developer/dotfiles/ghidra/build-ghidra.sh'
 
 LNK=/usr/share/applications/code.desktop
