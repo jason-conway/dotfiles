@@ -59,7 +59,7 @@ if [[ `uname` == "Darwin" ]]; then
 fi
 
 if [[ `hostname` != "jpc.dev" ]]; then
-	source ${HOME}/env-private.sh
+	source ${HOME}/.env-private.sh
 fi
 
 alias build-ghidra='${HOME}/Developer/dotfiles/ghidra/build-ghidra.sh'
