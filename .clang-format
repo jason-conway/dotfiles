@@ -23,7 +23,7 @@ BreakBeforeBinaryOperators: None
 BreakBeforeBraces: Stroustrup
 BreakBeforeInlineASMColon: OnlyMultiline
 BreakBeforeTernaryOperators: 'false'
-BreakBinaryOperations: RespectPrecedence
+BreakBinaryOperations: OnePerLine
 BreakFunctionDefinitionParameters: 'false'
 ColumnLimit: '0'
 Cpp11BracedListStyle: 'false'
